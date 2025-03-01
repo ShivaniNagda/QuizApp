@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>The Code Path : Ninja's Quizzy</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://c8.alamy.com/comp/2B9F3CB/quiz-logo-and-icon-vector-isolated-image-2B9F3CB.jpg" alt="Quiz Logo"/>
+        </div>
+       
+        <div>
+        <h2>Welcome to Quiz App </h2>
+    </div>
+    
+    <div class="timer-container">
+        <h3 class="timer" id="timer"><img src="https://media.gettyimages.com/id/805146738/vector/stopwatch-icon-on-black-and-white-vector-backgrounds.jpg?s=612x612&w=gi&k=20&c=iBftvAtEThIt-4dnLAphhXNVmJs2VVgagLR5WwsPWw8=" alt="0" style="border: 0px;"></h3>
+    </div>
+</header>
+    <main>
+       
+        <div id="question-container">
+            <button type="submit" id="startQuiz">Start Quiz</button>
+            <h3 id="loading">loading............</h3> 
+            <div id="question-parent-container">
+                   
+                    <div class="question" id="question"></div>
+                    <div class="answers" id="answers"></div>
+                    
+                    <div>
+                        <h2 class="Score" id="score"></h2>
+                    </div>
+                </div> 
+                <div id="next-button-container">
+                   
+                    <button id="prev-button">Prev</button>
+                    <button id="next-button">Next</button>
+                    <button class="retry-button" id="retry-button">Try again</button>
+                </div>
+            </div>
+    </main>
+    <footer> @Developed by Shivani</footer>
+    <script src="script.js"></script>
+</body>
+</html>
